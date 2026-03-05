@@ -1,6 +1,6 @@
 {
   "name": "@neowhale/test-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Test utilities and mock factories for WhaleTools storefronts — Playwright route interceptors, mock data, and state helpers",
   "type": "module",
   "main": "dist/index.js",
