@@ -1,0 +1,60 @@
+{
+  "name": "@neowhale/test-utils",
+  "version": "0.1.0",
+  "description": "Test utilities and mock factories for WhaleTools storefronts — Playwright route interceptors, mock data, and state helpers",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    },
+    "./playwright": {
+      "types": "./dist/playwright/index.d.ts",
+      "import": "./dist/playwright/index.js",
+      "require": "./dist/playwright/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "whaletools",
+    "testing",
+    "playwright",
+    "mock",
+    "e2e",
+    "storefront",
+    "ecommerce"
+  ],
+  "author": "WhaleTools <dev@whaletools.dev>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "@neowhale/storefront": ">=0.1.0",
+    "@playwright/test": ">=1.40.0"
+  },
+  "peerDependenciesMeta": {
+    "@playwright/test": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@neowhale/storefront": "^0.1.1",
+    "@playwright/test": "^1.50.0",
+    "@types/node": "^22.19.13",
+    "tsup": "^8.0.0",
+    "typescript": "^5.7.0"
+  }
+}
