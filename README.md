@@ -1,9 +1,20 @@
-# @neowhale/test-utils
+<p align="center">
+  <img src="whale-logo.png" alt="WhaleTools" width="80" />
+</p>
 
-Test utilities and mock factories for WhaleTools storefronts. Includes Playwright route interceptors, typed mock data factories, and state-seeding helpers for end-to-end testing.
+<h1 align="center">@neowhale/test-utils</h1>
 
-**Version:** 0.1.0
-**License:** MIT
+<p align="center">
+  Test utilities and mock factories for WhaleTools storefronts.
+</p>
+
+<p align="center">
+  <a href="https://www.npmjs.com/package/@neowhale/test-utils"><img src="https://img.shields.io/npm/v/@neowhale/test-utils.svg" alt="npm version" /></a>
+  <a href="https://whaletools.dev/docs"><img src="https://img.shields.io/badge/docs-whaletools.dev-blue" alt="docs" /></a>
+  <a href="https://github.com/neowhale/test-utils/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/@neowhale/test-utils" alt="license" /></a>
+</p>
+
+Includes Playwright route interceptors, typed mock data factories, and state-seeding helpers for end-to-end testing.
 
 ## Table of Contents
 

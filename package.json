@@ -1,6 +1,6 @@
 {
   "name": "@neowhale/test-utils",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Test utilities and mock factories for WhaleTools storefronts — Playwright route interceptors, mock data, and state helpers",
   "type": "module",
   "main": "dist/index.js",
@@ -19,7 +19,8 @@
   },
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "whale-logo.png"
   ],
   "scripts": {
     "build": "tsup",
@@ -38,6 +39,14 @@
   ],
   "author": "WhaleTools <dev@whaletools.dev>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neowhale/test-utils.git"
+  },
+  "homepage": "https://whaletools.dev/docs",
+  "bugs": {
+    "url": "https://github.com/neowhale/test-utils/issues"
+  },
   "publishConfig": {
     "access": "public"
   },
